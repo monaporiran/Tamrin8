@@ -1,0 +1,4 @@
+CREATE DATABASE SQ
+ON(FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Wealth.mdf'),
+(FILENAME='C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Wealth_log.ldf')
+FOR ATTACH;
